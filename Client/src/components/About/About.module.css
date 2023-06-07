@@ -1,0 +1,25 @@
+.imagen {
+  margin-top: 8px;
+  height: 450px;
+  width: 300px;
+  box-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px #daa520;
+  border-radius: 25%;
+  transition: transform 0.3s ease;
+}
+.imagen:hover {
+  transform: scale(1.1);
+}
+
+.textoprimario {
+  margin: 4px;
+  color: #070455;
+  text-align: center;
+  font-family: Roboto;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px rgb(136, 245, 12), 0 0 25px rgb(135, 224, 10),
+    0 0 5px #daa520;
+  transition: transform 0.3s ease;
+}
+.textoPrimario:hover {
+  transform: scale(1.1);
+}

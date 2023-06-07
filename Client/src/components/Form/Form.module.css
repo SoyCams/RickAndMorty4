@@ -1,0 +1,79 @@
+.container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 194, 240);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(98, 234, 7);
+  flex-direction: column;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.imagen {
+  margin-top: 8px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px #daa520;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.boton {
+  margin-top: 14px;
+  background-color: #0ffc0f;
+  color: #2c07fa;
+  padding: 5px 10px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(85, 242, 7);
+  transition: box-shadow 0.3s ease;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px rgba(55, 255, 0, 0.913);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button:focus {
+  outline: none; /* Quita el contorno al hacer clic en el botón */
+}
+.button:disabled {
+  opacity: 0.7; /* Opacidad reducida para el botón desactivado */
+  cursor: not-allowed; /* Cambia el cursor para indicar que el botón está desactivado */
+}
+.input {
+  margin-top: 8px;
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 5px; /* Ajusta el radio de los bordes según el estilo deseado */
+  padding: 10px; /* Ajusta el espaciado interno según tus necesidades */
+  box-shadow: 0 0 10px rgba(109, 251, 0, 0.983); /* Efecto de luminosidad en los bordes */
+  transition: box-shadow 0.3s ease;
+}
+
+.warning {
+  border: solid red 1px;
+  border-radius: 0.2em;
+}
+
+.danger {
+  font-size: 10px;
+  color: red;
+  margin-left: 10em;
+}

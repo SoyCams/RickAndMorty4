@@ -1,0 +1,75 @@
+.container {
+  display: inline-block;
+  background-color: rgb(10, 194, 240);
+  background-image: url('https://res.cloudinary.com/djyx9jath/image/upload/v1684891230/rickmorty/17336768_MotionElements_glow-particle-and-light_converted_619097-640x360-4s-q1_i83prg.gif');
+  border-radius: 10px;
+  /*width:fit-content;
+  height: 280px;*/
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(98, 234, 7);
+
+  &:hover {
+    box-shadow: 0 0 5px rgb(152, 6, 231);
+  }
+}
+.container img {
+  width: 130px;
+  box-shadow: 0 5px 5px black;
+  margin-top: 10px;
+}
+.buttonContainer {
+  transform: scale(1.1);
+  display: flex;
+  justify-content: end;
+}
+
+.buttonContainer button {
+  margin: 2px 2px 0 0;
+  border-radius: 3px;
+  background-color: rgb(144, 244, 14);
+  color: rgb(9, 114, 233);
+  box-shadow: 0 2px 2px black;
+
+  &:hover {
+    background-color: yellowgreen;
+    color: pink;
+    box-shadow: 0 2px 2px white;
+  }
+}
+
+.dataContainer {
+  text-align: center;
+  padding: 5px;
+}
+
+.dataContainer h2 {
+  margin: 2px;
+  font-size: 15px;
+  color: rgb(45, 250, 9);
+  text-shadow: 0 0 10px #7bfa0d, 0 0 20px #98f10a, 0 0 30px #7ff10d,
+    0 0 40px #ccf70c, 0 0 70px #dde808, 0 0 80px #e3ff0b, 0 0 100px #e1f509,
+    0 0 150px #dff20a;
+  /*text-transform: uppercase;*/
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.dataContainer h4 {
+  margin: 2px;
+  font-size: 10px;
+  color: rgb(8, 213, 244);
+  text-shadow: 0 0 10px #0dc7fa, 0 0 20px #05d4ef, 0 0 30px #06c7ea,
+    0 0 40px #ccf70c, 0 0 70px #dde808, 0 0 80px #e3ff0b, 0 0 100px #e1f509,
+    0 0 150px #dff20a;
+}
+
+.dataContainer p {
+  margin: 2px;
+}
+
+/*.textoprimario {
+}*/

@@ -1,0 +1,10 @@
+.columnas {
+  display: flex;
+  flex-direction: column;
+}
+
+.filas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
